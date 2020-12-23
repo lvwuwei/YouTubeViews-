@@ -1,7 +1,14 @@
+#python3.8
+#command install as pip3 install -r requirements.txt
+#for usage nano urls.txt  command as python3 youtube.py 300 /root/YouTubeViews-/urls.txt 38 66
 from argparse import ArgumentParser
 from os import path
 from random import randint
 from subprocess import call
+try:
+    from subprocess import getoutput
+except ImportError:
+    from commands import getoutput
 from subprocess import getoutput as shell
 from sys import exit
 from threading import Thread
