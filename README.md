@@ -1,5 +1,7 @@
 ### No longer maintained
-
+#python3.8
+#command install as pip3 install -r requirements.txt
+#for usage nano urls.txt  command as python3 youtube.py 300 /root/YouTubeViews-/urls.txt 38 66
 # Usage
 ```sh
  $ python youtube.py [visits] [youtubeLinks.txt] [minWatch] [maxWatch]
